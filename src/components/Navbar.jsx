@@ -19,7 +19,7 @@ import { FaHome, FaUser, FaProjectDiagram, FaFileAlt, FaPhoneAlt, FaStar, FaGith
 
 const Navbar = () => {
   return (
-    <nav className="bg-gradient-to-r from-purple-900 to-black text-white p-4">
+    <nav className="bg-[#031540] to-black text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold text-purple-400">
