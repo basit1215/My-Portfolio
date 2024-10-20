@@ -137,7 +137,7 @@ const Home = () => {
 
 
 
-<div>
+<div className=''>
     <MyAccountsLink />
 </div>
       
