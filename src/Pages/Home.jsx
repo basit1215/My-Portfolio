@@ -1,21 +1,3 @@
-// import React from 'react'
-
-// const Home = () => {
-//   return (
-//     <div>Home</div>
-//   )
-// }
-
-// export default Home
-
-
-
-
-
-
-
-
-
 import React, { useState, useEffect } from 'react';
 import basit from '../assets/profile-pic (31).png'
 import avator from '../assets/boy4-removebg-preview.png'
@@ -63,7 +45,7 @@ const Home = () => {
   return (
     <>
       <div className="min-h-[80vh] bg-[#031540] w-full justify-center">
-        <div className="flex  justify-center md:flex-row hover:gap-9  gap-12 md:gap-16 py-[60px]  ml-[5rem] ">
+        <div className="flex  justify-center md:flex-row  gap-12 md:gap-16 py-[60px]  ml-[5rem] ">
 
           <div className="w-[420px]  text-white text-center md:text-left py-10 md:w-[50%] md:mr-12">
             <h4 className="text-[26px] mb-1 tracking-tight font-medium">
@@ -111,43 +93,39 @@ const Home = () => {
         </div>
       </div>
 
-
       <div className="flex flex-col md:flex-row items-center justify-between py-9 bg-[#252c41] min-h-screen">
-        <div className="flex-1 mb-8 md:mb-0   ml-[5rem]">
-          <h1 className="text-5xl ml-[3rem]   md:text-5xl font-bold text-white mb-20">
+        <div className="flex-1 mb-8 md:mb-0 md:ml-[5rem]">
+          <h1 className="text-5xl md:text-5xl font-bold text-white mb-20">
             Let me <span className='text-[#00abf0]'>Introduce</span> Myself
           </h1>
-          <p className="text-lg md:text-xl text-white mt-9 w-[730px]">
+          <p className="text-lg md:text-xl text-white mt-9 w-full md:w-[730px]">
             <span>
               My journey into programming began with Curiosity, and over time, it has transformed into a Passion! 😊
-
-
             </span><br /><br />
 
             <span>I’ve gained a solid understanding of various Languages and Technologies, especially in <span className='text-[#00abf0]'>JavaScript,</span> <span className='text-[#00abf0]'>React JS,</span> and <span className='text-[#00abf0]'>Next JS.</span></span><br /><br />
 
-            <span>I’m particularly interested in developing <span className='text-[#00abf0]'> Innovative Web Technologies</span>and <span className='text-[#00abf0]'>Products,</span>with a growing fascination for fields like <span className='text-[#00abf0]'>Deep Learning</span> and <span className='text-[#00abf0]'>Natural Language Processing.</span></span><br /><br />
+            <span>I’m particularly interested in developing <span className='text-[#00abf0]'> Innovative Web Technologies</span> and <span className='text-[#00abf0]'>Products,</span> with a growing fascination for fields like <span className='text-[#00abf0]'>Deep Learning</span> and <span className='text-[#00abf0]'>Natural Language Processing.</span></span><br /><br />
 
             <span className=''>When I get the chance, I love using <span className='text-[#00abf0]'>Modern JavaScript Libraries </span> and <span className='text-[#00abf0]'>frameworks,</span> such as  <span className='text-[#00abf0]'>React JS, </span> to create Dynamic and cutting-edge Applications.</span>
           </p>
         </div>
-        <div className="flex-1 justify-center items-center ml-[1rem] my-[4rem] ">
+
+        <div className="flex-1 justify-center items-center my-[4rem]">
           <img src={avator} className='w-[480px] h-[480px]' alt="avator" />
         </div>
-      </div >
+
+      </div>
 
 
-
-<div className=''>
-    <MyAccountsLink />
-</div>
+      <div className=''>
+        <MyAccountsLink />
+      </div>
       
-     
-
-
-
     </>
+
   )
+
 }
 
 export default Home
