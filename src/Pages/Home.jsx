@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import basit from '../assets/profile-pic (31).png'
+import basit from '../assets/profile-pic (37).png'
 import avator from '../assets/boy4-removebg-preview.png'
 import './Home.css';
 import MyAccountsLink from '../components/MyAccountsLink';
