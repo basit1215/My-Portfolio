@@ -90,6 +90,7 @@
 
 
 import React from 'react';
+import './About.css';
 import image from '../assets/laptop.jpg'; // Update with the correct path to your image
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaJsSquare, FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa';
 import { SiTailwindcss, SiTypescript, SiRedux, SiExpress, SiMongodb, SiNextdotjs, SiFirebase } from 'react-icons/si';
@@ -105,13 +106,14 @@ const AboutSection = () => {
     { name: 'TypeScript', icon: <SiTypescript /> },
     { name: 'React', icon: <FaReact /> },
     { name: 'Redux', icon: <SiRedux /> },
-    { name: 'Node.js', icon: <FaNodeJs /> },
-    { name: 'Express', icon: <SiExpress /> },
-    { name: 'MongoDB', icon: <SiMongodb /> },
     { name: 'Next.js', icon: <SiNextdotjs /> },
     { name: 'Git', icon: <FaGitAlt /> },
     { name: 'Firebase', icon: <SiFirebase /> },
   ];
+
+  // { name: 'Node.js', icon: <FaNodeJs /> },
+  // { name: 'Express', icon: <SiExpress /> },
+  // { name: 'MongoDB', icon: <SiMongodb /> },
 
   return (
     <>
@@ -139,19 +141,21 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="min-h-screen w-[100%]  flex flex-col items-center justify-center pt-[108px] bg-[#252c41] text-white">
-        <h2 className="text-5xl font-bold mb-8 text-center">
+      <div className="min-h-screen w-[100%]  flex flex-col items-center justify-center pt-[108px] pb-[70px] bg-[#252c41] text-white">
+        <h2 className="text-5xl font-bold mb-16 text-center">
           Professional <span className="text-[#00abf0]">Skillset</span>
         </h2>
 
 
-        <div className="flex flex-wrap justify-center gap-6 w-[80%] px-4">
+        <div className="flex flex-wrap justify-center gap-12 w-[80%] px-10">
           {skills.map((skill, index) => (
-            <div
-              key={index}
-              className="flex items-center justify-center w-44 h-44 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-lg shadow-lg border border-[#00abf0] hover:scale-105 transition-transform text-4xl"
-            >
-              {skill.icon}
+            <div  className='hover:shadow-[0_0_10px_var(--main-color)] items-center px-18 justify-center w-72 h-64 sm:w-28 sm:h-28 md:w-[12rem] md:h-[9rem] rounded-lg shadow-lg border border-[#00abf0] hover:bg-[#031540] hover:border-none  hover:shadow-[#00abf0]   hover:text-[#00abf0] hover:scale-105 transition-transform'>
+              <div
+                key={index}
+                className="flex  items-center py-[29px]  justify-center text-[85px]"
+              >
+                {skill.icon}
+              </div>
             </div>
           ))}
         </div>
