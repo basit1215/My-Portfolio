@@ -494,7 +494,7 @@ const projectData = [
     hostedLink: "https://basit1215.github.io/Salt-n-pepper-Website/",
     techStack: ["HTML", "CSS"] // Added tech stack
   },
-  { 
+  {
     id: 2,
     category: "JavaScript",
     title: "Text Editor App",
@@ -516,39 +516,42 @@ function ProjectGallery() {
       : projectData.filter((project) => project.category === selectedCategory);
 
   return (
-    <div className="container mx-auto px-4">
-      <h1 className="text-3xl font-bold text-center mb-6">Image Gallery</h1>
+    <>
+    <div className="w-full justify-center">
+      <div className=" bg-[#031540] pt-8 pb-14 px-4">
+        <h1 className="text-5xl text-[#00abf0] font-bold text-center  mb-9">Projects</h1>
 
-      {/* Filter Buttons */}
-      <div className="flex justify-center space-x-4 mb-8">
-        {["All", "HTML & CSS", "JavaScript", "React", "NextJS", "React Native"].map((category) => (
-          <button
-            key={category}
-            className={`px-4 py-2 rounded-full text-white font-semibold ${
-              selectedCategory === category ? "bg-teal-500" : "bg-teal-300"
-            }`}
-            onClick={() => setSelectedCategory(category)}
-          >
-            {category}
-          </button>
-        ))}
-      </div>
+        {/* Filter Buttons */}
+        <div className="flex justify-center space-x-4 mb-12">
+          {["All", "HTML & CSS", "JavaScript", "React", "NextJS", "React Native"].map((category) => (
+            <button
+              key={category}
+              className={`px-4 py-2 rounded-full  font-semibold ${selectedCategory === category ? "bg-gray-800 text-white" : "bg-gray-700 text-white"
+                }`}
+              onClick={() => setSelectedCategory(category)}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
 
-      {/* Project Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredProjects.map((project) => (
-          <CustomCard
-            key={project.id}
-            title={project.title}
-            description={project.description}
-            image={project.image}
-            githubUrl={project.githubLink}
-            hostedUrl={project.hostedLink}
-            techStack={project.techStack} // Pass tech stack as props
-          />
-        ))}
+        {/* Project Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredProjects.map((project) => (
+            <CustomCard
+              key={project.id}
+              title={project.title}
+              description={project.description}
+              image={project.image}
+              githubUrl={project.githubLink}
+              hostedUrl={project.hostedLink}
+              techStack={project.techStack} // Pass tech stack as props
+            />
+          ))}
+        </div>
       </div>
-    </div>
+      </div>
+    </>
   );
 }
 

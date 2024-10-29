@@ -90,7 +90,7 @@
 
 
 import React from 'react';
-import './About.css';
+import './About.css'; 
 import image from '../assets/laptop.jpg'; // Update with the correct path to your image
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaJsSquare, FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa';
 import { SiTailwindcss, SiTypescript, SiRedux, SiExpress, SiMongodb, SiNextdotjs, SiFirebase } from 'react-icons/si';
