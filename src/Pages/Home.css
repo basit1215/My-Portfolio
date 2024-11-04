@@ -15,3 +15,160 @@
     transform-origin: 70% 70%; /* Adjust the origin of the waving effect */
   }
   
+
+  /* Base Styles */
+body, h1, h3, h4, p, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.min-h-[80vh] {
+  min-height: 80vh;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-dark-blue {
+  background-color: #031540;
+}
+
+.bg-light-blue {
+  background-color: #252c41;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .text-5xl {
+      font-size: 2rem;
+  }
+  .text-4xl {
+      font-size: 1.75rem;
+  }
+  .text-3xl {
+      font-size: 1.5rem;
+  }
+  .w-[60%] {
+      width: 80%;
+  }
+  .h-12 {
+      height: 2.5rem;
+  }
+  .py-10 {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      gap: 92px;
+  }
+  .md\:px-20 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .text-lg{
+    width: 300px;
+  }
+  .md\:text-5xl {
+    line-height: 1;
+    width: 410px;
+}
+img{
+  max-width: 162%;
+}
+
+}
+
+@media (max-width: 425px) {
+  .min-h-[80vh] {
+      min-height: 60vh;
+  }
+  .text-5xl {
+      font-size: 1.75rem;
+  }
+  .text-4xl {
+      font-size: 1.5rem;
+  }
+  .text-3xl {
+      font-size: 1.25rem;
+  }
+  .w-[60%] {
+      width: 90%;
+  }
+  .h-12 {
+      height: 2rem;
+  }
+  .py-10 {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+  }
+  .mb-8 {
+      margin-bottom: 1rem;
+  }
+  .leading-relaxed {
+      line-height: 1.6;
+  }
+}
+
+@media (max-width: 375px) {
+  .text-5xl {
+      font-size: 1.5rem;
+  }
+  .text-4xl {
+      font-size: 1.25rem;
+  }
+  .text-3xl {
+      font-size: 1rem;
+  }
+  .w-[60%], .w-[90%] {
+      width: 95%;
+  }
+  .h-12 {
+      height: 1.75rem;
+  }
+  .px-4 {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .text-5xl {
+      font-size: 1.25rem;
+  }
+  .text-4xl {
+      font-size: 1rem;
+  }
+  .text-3xl {
+      font-size: 0.875rem;
+  }
+  .w-[60%], .w-[90%] {
+      width: 100%;
+  }
+  .h-12 {
+      height: 1.5rem;
+  }
+  .px-4 {
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+  }
+  .py-10 {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+  }
+}

@@ -162,18 +162,6 @@ const AboutSection = () => {
 
 
 
-        {/* <div className="grid w-[80%] grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 px-4">
-          {skills.map((skill, index) => (
-            <div
-              key={index}
-              className="flex items-center justify-center w-44 h-44 sm:w-28 sm:h-28 md:w-32 md:h-32  rounded-lg shadow-lg border border-[#00abf0] hover:scale-105 transition-transform text-4xl"
-            >
-              {skill.icon}
-            </div>
-          ))}
-        </div> */}
-
-
       </div>
     </>
   );
