@@ -1,25 +1,13 @@
-// import React from 'react'
-
-// const Contact = () => {
-//   return (
-//     <div>Contact</div>
-//   )
-// }
-
-// export default Contact
-
-
 import React, { useState } from "react";
+import './Contact.css'
 
 function Contact() {
-  // States
   const [btn, setBtn] = useState('Send Message');
   const [names, setNames] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
 
-  // Function to simulate data submission
   const sendDataToDB = () => {
     setBtn(<div className="animate-spin border-4 border-blue-500 border-t-transparent rounded-full h-5 w-5"></div>);
 
@@ -64,12 +52,7 @@ function Contact() {
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
-          {/* <input
-            placeholder="Email"
-            type="email"
-            className="w-full p-2 border rounded mt-3"
-         
-          /> */}
+        
           <textarea
             placeholder="Message"
             className='w-full h-32 border hover:border-2 border-black  rounded-xl pl-5 pt-2 mt-2 focus:bg-[#c5c5c5]  bg-[#ececec] focus:border-[#00abf0] focus:outline-none'
@@ -88,4 +71,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Contact

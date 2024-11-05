@@ -23,7 +23,7 @@ body, h1, h3, h4, p, a {
   box-sizing: border-box;
 }
 
-.min-h-[80vh] {
+.min-h-\[80\vh\] {
   min-height: 80vh;
 }
 
@@ -67,9 +67,17 @@ body, h1, h3, h4, p, a {
   .text-3xl {
       font-size: 1.5rem;
   }
-  .w-[60%] {
+  .w-\[60\%\] {
       width: 80%;
   }
+  /* .w-60 {
+    width: 60%;
+} */
+
+.w-80 {
+    width: 80%;
+}
+
   .h-12 {
       height: 2.5rem;
   }
@@ -99,9 +107,17 @@ img{
 }
 
 @media (max-width: 425px) {
-  .min-h-[80vh] {
+  .min-h-\[80\vh\] {
       min-height: 60vh;
   }
+  /* .min-h-80vh {
+    min-height: 80vh;
+}
+
+.min-h-60vh {
+    min-height: 60vh;
+} */
+
   .text-5xl {
       font-size: 1.75rem;
   }
@@ -111,9 +127,17 @@ img{
   .text-3xl {
       font-size: 1.25rem;
   }
-  .w-[60%] {
+  .w-\[60\%\] {
       width: 90%;
   }
+  /* .w-60-percent {
+    width: 60%;
+}
+
+.w-90-percent {
+    width: 90%;
+} */
+
   .h-12 {
       height: 2rem;
   }
@@ -151,7 +175,7 @@ img{
   .text-3xl {
       font-size: 1rem;
   }
-  .w-[60%], .w-[90%] {
+  .w-\[60\%\], .w-\[90\%\] {
       width: 95%;
   }
   .h-12 {
@@ -186,7 +210,7 @@ img{
   .text-3xl {
       font-size: 0.875rem;
   }
-  .w-[60%], .w-[90%] {
+  .w-\[60\%\], .w-\[90\%\] {
       width: 100%;
   }
   .h-12 {

@@ -112,7 +112,7 @@ body, h1, h2, p, div {
   .gap-16 {
       gap: 1.5rem;
   }
-  .w-[26rem] {
+  .w-\[26\rem\] {
       width: 20rem;
       height: auto;
   }
@@ -159,7 +159,7 @@ body, h1, h2, p, div {
   .container {
       padding: 1rem;
   }
-  .w-72, .w-[26rem] {
+  .w-72, .w-\[26\rem\] {
       width: 90%;
       height: auto;
   }
@@ -207,7 +207,7 @@ padding: 0px 15px;
   .text-5xl, .text-4xl, .text-2xl {
       font-size: 1.5rem;
   }
-  .w-72, .w-[26rem] {
+  .w-72, .w-\[26\rem\] {
       width: 100%;
       height: auto;
   }
@@ -300,14 +300,14 @@ padding: 0px 15px;
   .gap-12, .gap-16, .gap-32 {
       gap: 0.5rem;
   }
-  .w-72, .w-[26rem] {
+  .w-72, .w-\[26\rem\] {
       width: 100%;
       height: auto;
   }
   .container {
       padding: 0.25rem;
   }
-  .pt-[10px] {
+  .pt-\[10\px\] {
       padding-top: 0.25rem;
   }
 }
