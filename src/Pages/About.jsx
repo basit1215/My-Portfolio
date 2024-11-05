@@ -119,7 +119,7 @@ const AboutSection = () => {
     <>
       <div className="min-h-screen flex flex-col items-center bg-[#031540] text-white py-16 ">
         <div className="flex flex-col lg:flex-row items-between justify-between pt-[10px] gap-32 lg:gap-16">
-          <div className="max-w-xl text-center lg:text-left mr-[90px] space-y-4 ">
+          <div className="max-w-xl lg:text-left mr-[90px] space-y-4 ">
             <h1 className="text-4xl md:text-5xl lg:text-[42px] font-bold text-center mb-9">
               Know Who <span className="text-[#00abf0]">I'M</span>
             </h1>

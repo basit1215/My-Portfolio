@@ -55,13 +55,14 @@ body, h1, h3, h4, p, a {
 
 
 
+
 /* Responsive Layout */
 @media (max-width: 768px) {
   .text-5xl {
       font-size: 2rem;
   }
   .text-4xl {
-      font-size: 1.75rem;
+    font-size: 1.75rem ;
   }
   .text-3xl {
       font-size: 1.5rem;
@@ -106,7 +107,6 @@ img{
   }
   .text-4xl {
     font-size: 1.75rem;
-    text-align: center;
   }
   .text-3xl {
       font-size: 1.25rem;
@@ -181,7 +181,7 @@ img{
       font-size: 1.25rem;
   }
   .text-4xl {
-      font-size: 1rem;
+      font-size: 1.5rem ;
   }
   .text-3xl {
       font-size: 0.875rem;
@@ -199,6 +199,7 @@ img{
   .py-10 {
     padding-top: 3rem;
     padding-bottom: 2.5rem;
+
     gap: 5px;
   }
   .h-64 {

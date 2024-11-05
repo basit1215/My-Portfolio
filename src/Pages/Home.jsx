@@ -194,13 +194,13 @@ const Home = () => {
           <img src={basit} alt="basit" className="w-[90%] h-[90%] rounded-lg" />
         </div>
 
-        <div className="text-white text-center md:text-left px-4 md:px-0 md:w-1/2 lg:w-[40%] w-[33%]">
+        <div className="text-white  md:text-left px-4 md:px-0 md:w-1/2 lg:w-[40%] w-[33%]">
           <h4 className="text-3xl   mb-1">Hi There 👋🏻</h4>
           <h1 className="text-5xl  mt-4 mb-2 font-bold">
             I'm <span className="text-[#00abf0]">Abdul Basit</span>
           </h1>
           <div className="h-12">
-            <h3 className="text-4xl   text-[#00abf0] font-mono">
+            <h3 className="text-[24px]   text-[#00abf0] font-mono">
               <span className="animate-typing overflow-hidden whitespace-nowrap border-r-2 border-gray-400 pr-2">{displayedText}</span>
             </h3>
           </div>
