@@ -19,6 +19,7 @@ import Quiz from '../assets/quiz.png';
 import Blog from '../assets/blog.png';
 import Meme from '../assets/meme.png';
 import Ecommerce from '../assets/ecomm.png';
+import './Projects.css'
 
 
 const projectData = [
@@ -233,7 +234,7 @@ function ProjectGallery() {
             {["All", "HTML & CSS", "JavaScript", "ReactJS", "NextJS"].map((category) => (
               <button
                 key={category}
-                className={`px-4 py-2 rounded-full  font-semibold ${selectedCategory === category ? "bg-gray-800 text-white" : "bg-gray-700 text-white"
+                className={` py-2 rounded-[15%]  md:px-[15px] allBtns  lg:px-[15px] font-semibold ${selectedCategory === category ? "bg-gray-800 text-white" : "bg-gray-700 text-white"
                   }`}
                 onClick={() => setSelectedCategory(category)}
               >
@@ -243,7 +244,7 @@ function ProjectGallery() {
           </div>
  
           {/* Project Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:mx-5  allCards  md:mx-[15px] lg:grid-cols-3 gap-6">
             {filteredProjects.map((project) => (
               <CustomCard
                 key={project.id}

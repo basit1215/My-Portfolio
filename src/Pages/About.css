@@ -103,6 +103,9 @@ body, h1, h2, p, div {
   .text-5xl {
       font-size: 2.25rem;
   }
+  .rounded-lg {
+margin: 0 !important;
+  }
   .text-4xl {
       font-size: 2rem;
   }
@@ -169,7 +172,7 @@ body, h1, h2, p, div {
       padding: 0px 15px;
       width: 425px;
   }
-  .text-lg {
+  .aboutLG {
     width: 400px;
     padding: 0px 15px;
     
@@ -195,8 +198,12 @@ padding: 0px 15px;
 .w-72 {
   width: 42%;
 }
-.h-64 {
-  height: 9rem;
+
+.h-\[26rem\] {
+  height: 21rem;
+}
+.dabba {
+  height: 9rem ;
 }
 
 
@@ -208,12 +215,15 @@ padding: 0px 15px;
       font-size: 1.5rem;
   }
   .w-72, .w-\[26\rem\] {
-      width: 100%;
-      height: auto;
-  }
+    width: 95%;
+    height: 20rem;
+}
   .container {
       padding: 0.5rem;
   }
+  .dabba {
+    height: 7rem ;
+}
   .gap-32 {
     gap: 1rem;
     flex-direction: column;
@@ -224,7 +234,7 @@ padding: 0px 15px;
     line-height: 1;
     width: 345px;
 }
-.text-lg {
+.aboutLG {
   width: 345px;
   padding: 0px 15px;
 }
@@ -255,6 +265,10 @@ padding: 0px 15px;
   .gap-32 {
     width: 320px;
 }
+.aboutLG {
+  width: 304px;
+  padding: 0px 18px 0px 0px;
+}
 
 .md\:text-5xl {
   line-height: 1;
@@ -270,7 +284,7 @@ padding: 0px 15px;
   padding-top: 50px;
 }
 .h-\[26rem\] {
-  height: 15rem;
+  height: 18rem;
 }
 
 .w-\[26rem\] {
@@ -302,7 +316,6 @@ padding: 0px 15px;
   }
   .w-72, .w-\[26\rem\] {
       width: 100%;
-      height: auto;
   }
   .container {
       padding: 0.25rem;

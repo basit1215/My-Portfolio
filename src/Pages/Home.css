@@ -23,7 +23,7 @@ body, h1, h3, h4, p, a {
   box-sizing: border-box;
 }
 
-.min-h-\[80\vh\] {
+.min-h-[80vh] {
   min-height: 80vh;
 }
 
@@ -52,7 +52,11 @@ body, h1, h3, h4, p, a {
 .shadow-md {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+@media (max-width: 768px) {
+.letMe{
+  padding-left: 32px;
+}
+}
 
 
 
@@ -67,12 +71,17 @@ body, h1, h3, h4, p, a {
   .text-3xl {
       font-size: 1.5rem;
   }
-  .w-\[60\%\] {
+  .w-[60%] {
       width: 80%;
   }
-  /* .w-60 {
-    width: 60%;
-} */
+ 
+  .larka {
+   width: 22rem;
+   height: 20rem;
+  }
+  .larkaDiv{
+    padding-right: 32px;
+  }
 
 .w-80 {
     width: 80%;
@@ -101,7 +110,7 @@ img{
   max-width: 162%;
 }
 .md\:w-96 {
-  width: 21rem;
+  width: 18rem;
 }
 
 }
@@ -117,9 +126,19 @@ img{
 .min-h-60vh {
     min-height: 60vh;
 } */
-
   .text-5xl {
       font-size: 1.75rem;
+  }
+  .introSelf{
+    padding: 0px 22px 0px 0px;
+    width: 391px;
+    
+  }
+  .introSelfDiv{
+    width: 425px;
+  }
+  .introSelfHead{
+    width: 370px;
   }
   .text-4xl {
     font-size: 1.75rem;
@@ -151,23 +170,24 @@ img{
   }
   .leading-relaxed {
       line-height: 1.6;
-      padding-left: 10px;
   }
   .w-\[33\%\] {
     width: 85%;
 }
-.text-lg {
-  width: 400px;
+
+.larka {
+  height: 20rem !important;
 }
-.h-64 {
-  height: 22rem;
-}
+
 
 }
 
 @media (max-width: 375px) {
   .text-5xl {
       font-size: 1.5rem;
+  }
+  .duration-300 {
+margin: 0 !important;
   }
   .text-4xl {
       font-size: 1.25rem;
@@ -181,6 +201,19 @@ img{
   .h-12 {
       height: 1.75rem;
   }
+  .introSelfDiv{
+    width: 375px;
+  }
+  .introSelfHead{
+    width: 355px;
+    text-align: center;
+  }
+  .w-\[90\%\] {
+    width: 90%;
+}
+  .letMe {
+    padding-left: 12px;
+}
   .px-4 {
       padding-left: 0.5rem;
       padding-right: 0.5rem;
@@ -189,14 +222,17 @@ img{
     line-height: 1;
     width: 375px;
 }
-.text-lg {
-  width: 375px;
+.introSelf {
+  width: 340px;
 }
 .leading-relaxed {
   line-height: 1.6;
   padding-left: 20px;
   padding-right: 20px;
 }
+/* .h-64 {
+  height: 17rem;
+} */
 
 }
 
@@ -210,7 +246,11 @@ img{
   .text-3xl {
       font-size: 0.875rem;
   }
-  .w-\[60\%\], .w-\[90\%\] {
+  .px-6 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+  .w-[60%], .w-[90%] {
       width: 100%;
   }
   .h-12 {
@@ -226,9 +266,10 @@ img{
 
     gap: 5px;
   }
-  .h-64 {
-    height: 20rem;
+  .introSelfDiv {
+    width: 320px;
 }
+
 .md\:w-96 {
   width: 20rem;
 }

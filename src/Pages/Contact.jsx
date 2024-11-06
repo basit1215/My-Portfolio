@@ -60,7 +60,7 @@ function Contact() {
             value={message}
           />
           <div className="text-center mt-5">
-            <button onClick={sendDataToDB} className="inline-block px-6 py-2 bg-blue-500 text-[#0e1b38] font-bold text-base rounded-full border-2 border-transparent duration-300 ease-in-out transition transform hover:bg-blue-500 hover:shadow-none shadow-[0_0_13px_var(--main-color)] shadow-[#00abf0]" >
+            <button onClick={sendDataToDB} className="inline-block px-6 py-2 bg-blue-500 text-[#0e1b38] font-bold text-base rounded-[5%] border border-transparent duration-300 ease-in-out transition transform hover:bg-blue-500 hover:shadow-none shadow-[0_0_13px_var(--main-color)] shadow-[#00abf0]" >
               {btn}
             </button>
             {error && <p className="mt-5 text-red-500">{error}</p>}
