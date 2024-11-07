@@ -116,6 +116,9 @@
     .rounded-lg {
         margin: 0px 25px;
     }
+    .contact{
+        padding: 30px 20px;
+    }
     .input,
     .textarea {
         height: 2.75rem;
@@ -158,5 +161,8 @@
     }
     .rounded-lg {
         margin: 0px 10px;
+    }
+    .contact {
+        padding: 30px 10px;
     }
 }

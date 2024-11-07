@@ -226,7 +226,7 @@ function ProjectGallery() {
   return (
     <>
       <div className="w-full justify-center">
-        <div className=" bg-[#031540] pt-8 pb-14 px-4">
+        <div className=" bg-[#031540] md:pt-[7rem] md:pb-[5rem] pt-8 pb-14 px-4">
           <h1 className="text-5xl text-[#00abf0] font-bold text-center  mb-9">Projects</h1>
 
           {/* Filter Buttons */}

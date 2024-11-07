@@ -32,8 +32,8 @@ function Contact() {
   };
 
   return (
-    <section className="flex justify-center bg-[#031540] items-center py-10">
-      <div className="w-full max-w-[45rem] bg-[#252c41]   shadow-[#00abf0] shadow-[0_0_22px_var(--main-color)] rounded-lg p-6">
+    <section className="flex contact pt-[50px] justify-center bg-[#031540] items-center py-10">
+      <div className="w-full max-w-[45rem]  bg-[#252c41] mt-[82px]  shadow-[#00abf0] shadow-[0_0_22px_var(--main-color)] rounded-lg p-6">
         <h1 className="text-3xl mb-8 text-[#00abf0] text-center font-bold">GET IN TOUCH</h1>
         <p className="text-center text-gray-300 mt-2">
           I would like to know the final requirements of your project. Please get in touch with me and share details about your project.

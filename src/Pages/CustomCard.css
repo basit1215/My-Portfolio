@@ -123,10 +123,10 @@
         padding-top: 0.25rem;
         padding-bottom: 0.25rem;
     }
-    .px-3 {
+    /* .px-3 {
         padding-left: 0.25rem;
         padding-right: 0.25rem;
-    }
+    } */
 
 }
 
@@ -183,5 +183,8 @@
     }
     .description {
         font-size: 0.75rem;
+    }
+    .github{
+        gap: 1rem;
     }
 }

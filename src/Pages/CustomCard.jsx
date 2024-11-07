@@ -10,8 +10,8 @@ function CustomCard({ title, description, image, githubUrl, hostedUrl, techStack
     
       <div className="relative">
         <img src={image} alt={title} className="w-full h-48 object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75"></div>
-        <h2 className="absolute bottom-2 left-[1rem] text-2xl font-bold text-white z-10">{title}</h2>
+        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-85"></div>
+        <h2 style={{  textShadow: '5px 4px 5px rgba(0,171,240,0.91)',}} className="absolute bottom-2 left-[1rem] text-2xl  font-bold text-white z-10">{title}</h2>
       </div>
 
       <div className="  bg-[#bcecff]">
@@ -21,7 +21,7 @@ function CustomCard({ title, description, image, githubUrl, hostedUrl, techStack
           {techStack.map((tech, index) => (
             <span
               key={index}
-              className="bg-[#79caeb] text-gray-800 px-3 py-1 rounded-full text-sm font-semibold"
+              className="bg-[#79caeb] text-gray-800 px-3 py-1 rounded-[22%] lg:px-[0.5rem]  text-sm font-semibold"
             >
               {tech}
             </span>
@@ -33,7 +33,7 @@ function CustomCard({ title, description, image, githubUrl, hostedUrl, techStack
             href={githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#1a85af] w-[50%]  border-r flex border-black justify-center items-center gap-5 text-white px-4 py-2 rounded-bl-2xl font-bold   hover:bg-opacity-90 transition"
+            className="bg-[#1a85af] github w-[50%]  border-r flex border-black justify-center items-center gap-5 text-white px-4 py-2 rounded-bl-2xl font-bold   hover:bg-opacity-90 transition"
           >
             GitHub Repo <FaGithub/>
           </Link>
