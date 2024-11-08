@@ -63,59 +63,64 @@ body, h1, h3, h4, p, a {
 /* Responsive Layout */
 @media (max-width: 768px) {
   .text-5xl {
-      font-size: 2rem;
-  }
-  .text-4xl {
-    font-size: 1.75rem ;
-  }
-  .text-3xl {
-      font-size: 1.5rem;
-  }
-  /* .w-[60%] {
-      width: 80%;
-  } */
- 
-  .larka {
-   width: 22rem;
-   height: 20rem;
-  }
-  .larkaDiv{
-    padding-right: 32px;
-  }
+    font-size: 2rem;
+}
+.text-4xl {
+  font-size: 1.75rem ;
+}
+.text-3xl {
+    font-size: 1.5rem;
+}
+/* .w-[60%] {
+    width: 80%;
+} */
+
+.larka {
+ width: 22rem;
+ height: 20rem;
+}
+.larkaDiv{
+  padding-right: 32px;
+}
 
 .w-80 {
-    width: 80%;
+  width: 80%;
 }
 
-  .h-12 {
-      height: 2.5rem;
-  }
-  .py-10 {
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
-      gap: 92px;
-  }
-  .md\:px-20 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  .text-lg{
-    width: 300px;
-  }
-  .md\:text-5xl {
-    line-height: 1;
-    width: 410px;
+.h-12 {
+    height: 2.5rem;
+}
+.py-10 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    gap: 92px;
+}
+.md\:px-20 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.text-lg{
+  width: 300px;
+}
+.md\:text-5xl {
+  line-height: 1;
+  width: 332px;
 }
 img{
-  max-width: 162%;
+max-width: 162%;
 }
 .md\:w-96 {
-  width: 18rem;
+width: 18rem;
 }
 .home{
-  padding-top: 5.75rem;
+padding-top: 5.75rem;
 }
 
+.homeLinks{
+  /* width: 30%;
+  text-align: center; */
+  font-size: 16px !important;
+}
 
 
 
@@ -125,12 +130,7 @@ img{
   .min-h-\[80\vh\] {
       min-height: 60vh;
   }
-  .home{
-    flex-direction: column-reverse;
-    gap: 100px;
-    padding-top: 9.5rem;
-    padding-bottom: 0.5rem;
-  }
+
   .home1{
     padding-bottom: 50px;
     padding-top: 20px;
@@ -203,7 +203,6 @@ img{
   height: 20rem !important;
 }
 .home1{
-  padding-top: 50px;
   width: 70%;
     display: flex;
     justify-content: center;
@@ -213,7 +212,31 @@ img{
 .img{
   width: 75% !important;
 }
+  .home{
+    flex-direction: column-reverse !important;
+    gap: 100px;
+    padding-top: 7.5rem ;
+    padding-bottom: 0.5rem;
+  }
+  .homeIntro{
+    text-align: center;
+    width: 100%;
+  }
+  .homeLinks{
+    width: 30%;
+    text-align: center;
+    font-size: 13px !important;
+  }
+  .homeLinksDiv{
+    flex-direction: row;
+    align-items: center;
+  }
+  
+ .Letme{
+    padding-left: 1rem  ;
+    padding-right: 1rem ;
 
+ }
 
 }
 
@@ -268,6 +291,21 @@ margin: 0 !important;
 /* .h-64 {
   height: 17rem;
 } */
+ .mySelf{
+  text-align: center !important;
+  width: 100% !important;
+ }
+ .homeLinks{
+  width: 25%;
+  text-align: center;
+  font-size: 18px ;
+  padding: 6px 0px;
+}
+.homeLinksDiv{
+  flex-direction: row;
+  /* align-items: center; */
+}
+
 
 }
 

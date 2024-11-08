@@ -104,6 +104,7 @@ import { MdOutlineMailOutline } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './MyAccountsLink.css'
 
 const MyAccountsLink = () => {
   useEffect(() => {
@@ -135,7 +136,7 @@ const MyAccountsLink = () => {
           </p>
         </div>
 
-        <div className="flex justify-center space-x-8">
+        <div className="flex justify-center allLinksDivs space-x-8">
           <Link
             to="https://github.com/harisahmedjs"
             target="_blank"
