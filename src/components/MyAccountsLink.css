@@ -5,3 +5,13 @@
 }
 
 }
+
+@media (max-width: 320px) {
+
+    .allLinksDivs{
+        gap: 14px;
+        width: 100%;
+        justify-content:center ;
+    }
+    
+    }
