@@ -6,6 +6,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Projects from './Pages/Projects'
 import Contact from './Pages/Contact'
+import NotFound from './Pages/NotFound'
 
 const router = createBrowserRouter([
   {
@@ -22,17 +23,18 @@ const router = createBrowserRouter([
       },
       {
         path: "projects",
-        element: <Projects/>
-    },
-    {
-      path: "contact",
-      element: <Contact />
-  },
-  {
-    path: "*",
-    element: <h1>Not Found!</h1>
-} ]
-}
+        element: <Projects />
+      },
+      {
+        path: "contact",
+        element: <Contact />
+      },
+      {
+        path: "*",
+        element: <NotFound/>
+      }
+    ]
+  }
 ])
 
 createRoot(document.getElementById('root')).render(

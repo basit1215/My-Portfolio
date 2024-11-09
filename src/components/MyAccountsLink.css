@@ -1,17 +1,14 @@
 @media (max-width: 375px) {
-
-.allLinksDivs{
-    gap: 20px;
+    .allLinksDivs {
+        gap: 20px;
+    }
 }
 
-}
 
 @media (max-width: 320px) {
-
-    .allLinksDivs{
+    .allLinksDivs {
         gap: 14px;
         width: 100%;
-        justify-content:center ;
+        justify-content: center;
     }
-    
-    }
+}

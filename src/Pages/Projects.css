@@ -1,14 +1,11 @@
-/* Container to center the switch */
 .switch-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background: #d1d9e6;
-  /* Light background for Neumorphic look */
 }
 
-/* Main switch styling */
 .switch {
   display: flex;
   width: 120px;
@@ -22,7 +19,6 @@
   overflow: hidden;
 }
 
-/* Button for Celsius and Fahrenheit */
 .switch-button {
   display: flex;
   align-items: center;
@@ -42,16 +38,6 @@
   box-shadow: -4px -4px 8px #ffffff, 4px 4px 8px #bec8d2;
 }
 
-
-
-
-
-
-
-
-
-
-/* Center the switch */
 .toggle-container {
   display: flex;
   justify-content: center;
@@ -60,7 +46,6 @@
   background: #e0e5ec;
 }
 
-/* Main toggle switch styling */
 .toggle-switch {
   position: relative;
   width: 120px;
@@ -76,7 +61,6 @@
   padding: 5px;
 }
 
-/* On and Off background colors */
 .toggle-switch.on {
   background-color: #81c784;
   box-shadow: inset 4px 4px 8px #6fa670, inset -4px -4px 8px #9be39e;
@@ -87,7 +71,6 @@
   box-shadow: inset 4px 4px 8px #d16464, inset -4px -4px 8px #f2a6a6;
 }
 
-/* Toggle knob */
 .toggle-knob {
   width: 50px;
   height: 50px;
@@ -104,7 +87,6 @@
   left: 65px;
 }
 
-/* Label for On/Off */
 .switch-label {
   font-weight: bold;
   color: #fff;
@@ -118,23 +100,6 @@
   left: 80px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Initial Button Style */
 .normal-button {
   background-color: #e0e0e0;
   border: none;
@@ -148,7 +113,6 @@
   box-shadow: 2px 2px 5px #b0b0b0, -2px -2px 5px #ffffff;
 }
 
-/* Toggled Button Style (Active State) */
 .toggled {
   background-color: #81c784;
   color: #fff;
@@ -156,41 +120,33 @@
 }
 
 
-
 @media (max-width: 425px) {
-
   .allBtns {
     padding: 4px 7px;
     font-size: 14px;
   }
 
-  .projectsDiv{
+  .projectsDiv {
     padding-top: 7rem;
   }
-
 }
-
 
 
 @media (max-width: 375px) {
+  .allBtns {
+    padding: 5px 6px;
+    font-size: 12px;
+  }
 
-.allBtns {
-  padding: 5px 6px;
-  font-size: 12px;
+  .allCards {
+    margin: 0px 14px;
+  }
 }
-.allCards{
-  margin: 0px 14px;
-}
-
-}
-
 
 
 @media (max-width: 375px) {
-
-.allBtns {
-  padding: 8px 7px;
-  font-size: 9px;
-}
-
+  .allBtns {
+    padding: 8px 7px;
+    font-size: 9px;
+  }
 }
