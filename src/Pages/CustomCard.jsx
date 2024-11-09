@@ -85,8 +85,8 @@ function CustomCard({ title, description, image, githubUrl, hostedUrl, techStack
   return (
     <div
       data-aos="fade-up"
-      className="max-w-sm mx-auto bg-white rounded-2xl border-2 border-sky-300 overflow-hidden shadow-white hover:shadow-[0_0_22px_var(--main-color)] hover:shadow-white shadow-[0_0_14px_var(--main-color)] transform transition duration-300 hover:scale-105"
-    >
+      className="max-w-sm mx-auto h-auto bg-white rounded-2xl border-2 border-sky-300 overflow-hidden shadow-white hover:shadow-[0_0_22px_var(--main-color)] hover:shadow-white shadow-[0_0_14px_var(--main-color)] transform transition duration-300 hover:scale-105"
+      >
       <div className="relative">
         <img src={image} alt={title} className="w-full h-48 object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-85"></div>

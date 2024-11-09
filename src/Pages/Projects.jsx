@@ -25,6 +25,7 @@ import 'aos/dist/aos.css';
 
 
 const projectData = [
+
   {
     id: 1,
     category: "HTML & CSS",
@@ -53,7 +54,7 @@ const projectData = [
     image: Tere,
     githubLink: "https://github.com/basit1215/Tere-Website",
     hostedLink: "https://basit1215.github.io/Tere-Website/",
-    techStack: ["HTML", "CSS", "BOOTSTRAP"] // Added tech stack
+    techStack: ["HTML", "CSS", "BOOTSTRAP"]
   },
   {
     id: 4,
@@ -63,7 +64,7 @@ const projectData = [
     image: Chess,
     githubLink: "https://github.com/basit1215/chess-board",
     hostedLink: "https://basit1215.github.io/chess-board/",
-    techStack: ["HTML", "CSS"] // Added tech stack
+    techStack: ["HTML", "CSS"]
   },
   {
     id: 5,
@@ -83,7 +84,7 @@ const projectData = [
     image: TextEditor,
     githubLink: "https://github.com/basit1215/Text-Editor-App",
     hostedLink: "https://basit1215.github.io/Text-Editor-App/",
-    techStack: ["HTML", "CSS", "JAVASCRIPT"] // Added tech stack
+    techStack: ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     id: 7,
@@ -93,7 +94,7 @@ const projectData = [
     image: AgeCalculatr,
     githubLink: "https://github.com/basit1215/Age-Calculator",
     hostedLink: "https://basit1215.github.io/Age-Calculator/",
-    techStack: ["HTML", "CSS", "JAVASCRIPT"] // Added tech stack
+    techStack: ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     id: 8,
@@ -103,7 +104,7 @@ const projectData = [
     image: Password,
     githubLink: "https://github.com/basit1215/Password-Generator",
     hostedLink: "https://basit1215.github.io/Password-Generator/",
-    techStack: ["HTML", "CSS", "JAVASCRIPT"] // Added tech stack
+    techStack: ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     id: 9,
@@ -113,7 +114,7 @@ const projectData = [
     image: StopWatch,
     githubLink: "https://github.com/basit1215/Stop-Watch",
     hostedLink: "https://basit1215.github.io/Stop-Watch/",
-    techStack: ["HTML", "CSS", "JAVASCRIPT"] // Added tech stack
+    techStack: ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     id: 10,
@@ -123,7 +124,7 @@ const projectData = [
     image: PostApp,
     githubLink: "https://github.com/basit1215/Post-App",
     hostedLink: "https://basit1215.github.io/Post-App/",
-    techStack: ["HTML", "CSS", "JAVASCRIPT"] // Added tech stack
+    techStack: ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     id: 11,
@@ -133,7 +134,7 @@ const projectData = [
     image: ChatBot,
     githubLink: "https://github.com/basit1215/SMIT-ChatBot",
     hostedLink: "https://basit1215.github.io/SMIT-ChatBot/",
-    techStack: ["HTML", "CSS", "JAVASCRIPT"]// Added tech stack
+    techStack: ["HTML", "CSS", "JAVASCRIPT"]
   },
   {
     id: 12,
@@ -143,7 +144,7 @@ const projectData = [
     image: Counter,
     githubLink: "https://github.com/basit1215/React-Counter-App",
     hostedLink: "https://react-counter-app-self.vercel.app/",
-    techStack: ["REACT JS", "JAVASCRIPT", "CSS"] // Added tech stack
+    techStack: ["REACT JS", "JAVASCRIPT", "CSS"]
   },
   {
     id: 13,
@@ -153,7 +154,7 @@ const projectData = [
     image: Todo,
     githubLink: "https://github.com/basit1215/Todo-App-React-Firebase",
     hostedLink: "https://todo-app-react-firebase-orpin.vercel.app/",
-    techStack: ["REACT JS", "JAVASCRIPT", "FIREBASE"] // Added tech stack
+    techStack: ["REACT JS", "JAVASCRIPT", "FIREBASE"]
   },
   {
     id: 14,
@@ -163,7 +164,7 @@ const projectData = [
     image: Admission,
     githubLink: "https://github.com/basit1215/React-Admission-Portal",
     hostedLink: "https://react-admission-portal.vercel.app/",
-    techStack: ["REACT JS", "JAVASCRIPT", "FIREBASE"] // Added tech stack
+    techStack: ["REACT JS", "JAVASCRIPT", "FIREBASE"]
   },
   {
     id: 15,
@@ -173,7 +174,7 @@ const projectData = [
     image: Weather,
     githubLink: "https://github.com/basit1215/React-Weather-App",
     hostedLink: "https://react-weather-app-8tuo.vercel.app/",
-    techStack: ["REACT JS", "JAVASCRIPT", "TAILWIND CSS"] // Added tech stack
+    techStack: ["REACT JS", "JAVASCRIPT", "TAILWIND CSS"]
   },
   {
     id: 16,
@@ -183,7 +184,7 @@ const projectData = [
     image: Quiz,
     githubLink: "https://github.com/basit1215/React-Quiz_App",
     hostedLink: "https://react-quiz-app-two-theta.vercel.app/",
-    techStack: ["REACT JS", "JAVASCRIPT", "TAILWIND CSS"] // Added tech stack
+    techStack: ["REACT JS", "JAVASCRIPT", "TAILWIND CSS"]
   },
   {
     id: 17,
@@ -193,7 +194,7 @@ const projectData = [
     image: Blog,
     githubLink: "https://github.com/basit1215/Blogging-App",
     hostedLink: "https://blogging-app-omega-livid.vercel.app/",
-    techStack: ["REACT JS", "JAVASCRIPT", "FIREBASE"] // Added tech stack
+    techStack: ["REACT JS", "JAVASCRIPT", "FIREBASE"]
   },
   {
     id: 18,
@@ -203,7 +204,7 @@ const projectData = [
     image: Meme,
     githubLink: "https://github.com/basit1215/Meme-Generator",
     hostedLink: "https://meme-generator-seven-umber.vercel.app/",
-    techStack: ["NEXT JS", "TYPESCRIPT", "TAILWIND CSS"] // Added tech stack
+    techStack: ["NEXT JS", "TYPESCRIPT", "TAILWIND CSS"]
   },
   {
     id: 19,
@@ -213,13 +214,20 @@ const projectData = [
     image: Ecommerce,
     githubLink: "https://github.com/basit1215/Ecommerce-Next-JS",
     hostedLink: "https://ecommerce-next-js-plum.vercel.app/",
-    techStack: ["NEXT JS", "TYPESCRIPT", "TAILWIND CSS"] // Added tech stack
+    techStack: ["NEXT JS", "TYPESCRIPT", "TAILWIND CSS"]
   },
+
 ];
 
 
-
 function ProjectGallery() {
+
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const filteredProjects =
+    selectedCategory === "All"
+      ? projectData
+      : projectData.filter((project) => project.category === selectedCategory);
 
   useEffect(() => {
     AOS.init({
@@ -231,38 +239,16 @@ function ProjectGallery() {
     });
   }, []);
 
-  const [selectedCategory, setSelectedCategory] = useState("All");
-
-  const filteredProjects =
-    selectedCategory === "All"
-      ? projectData
-      : projectData.filter((project) => project.category === selectedCategory);
 
   return (
     <>
-      <div className="w-full justify-center">
-        <div className=" bg-[#031540] md:pt-[7rem] projectsDiv md:pb-[5rem] pt-8 pb-14 px-4">
-          {/* <h1 className="text-5xl text-[#00abf0] font-bold text-center  mb-9">Projects</h1>
+      <div className="min-h-[80vh] w-full justify-center">
+        <div className=" bg-[#031540] md:pt-[7rem] pb-20 projectsDiv md:pb-[5rem] pt-8  px-4">
 
-   
-          <div className="flex justify-center space-x-4 mb-12">
-            {["All", "HTML & CSS", "JavaScript", "ReactJS", "NextJS"].map((category) => (
-              <button
-                key={category}
-                className={` py-2 rounded-[15%]  md:px-[15px] allBtns  lg:px-[15px] font-semibold ${selectedCategory === category ? "bg-gray-800 text-white" : "bg-gray-700 text-white"
-                  }`}
-                onClick={() => setSelectedCategory(category)}
-              >
-                {category}
-              </button>
-            ))}
-          </div> */}
-
-          <h1 className="text-5xl text-[#00abf0]  font-bold text-center mb-9" data-aos="zoom-in"     data-aos-delay="200">
+          <h1 className="text-5xl text-[#00abf0]  font-bold text-center mb-9" data-aos="zoom-in" data-aos-delay="200">
             Projects
           </h1>
 
-          {/* Filter Buttons */}
           <div className="flex justify-center space-x-4 mb-12">
             {["All", "HTML & CSS", "JavaScript", "ReactJS", "NextJS"].map((category, index) => (
               <button
@@ -270,52 +256,34 @@ function ProjectGallery() {
                 className={`py-2 rounded-[15%] md:px-[15px] allBtns lg:px-[15px] font-semibold ${selectedCategory === category ? "bg-gray-800 text-white" : "bg-gray-700 text-white"
                   }`}
                 onClick={() => setSelectedCategory(category)}
-                data-aos="fade-left"  // Alternating animation for each button
+                data-aos="fade-left"
                 data-aos-delay={`${index * 200 + 300}`}
-             >
+              >
                 {category}
               </button>
             ))}
           </div>
 
-
-
-          {/* Project Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:mx-5  allCards  md:mx-[15px] lg:grid-cols-3 gap-6">
+          <div className="grid-cols-1 pb-[30px] justify-center flex flex-wrap items-center gap-[35px] sm:grid-cols-2 lg:mx-5 allCards md:mx-[15px] lg:grid-cols-3">
             {filteredProjects.map((project) => (
-              <CustomCard
-                key={project.id}
-                title={project.title}
-                description={project.description}
-                image={project.image}
-                githubUrl={project.githubLink}
-                hostedUrl={project.hostedLink}
-                techStack={project.techStack} // Pass tech stack as props
-              />
+              <div className="transform transition duration-300 hover:scale-105">
+                <CustomCard
+                  key={project.id}
+                  title={project.title}
+                  description={project.description}
+                  image={project.image}
+                  githubUrl={project.githubLink}
+                  hostedUrl={project.hostedLink}
+                  techStack={project.techStack}
+                />
+              </div>
             ))}
           </div>
+
         </div>
       </div>
     </>
   );
 }
 
-export default ProjectGallery
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default ProjectGallery;

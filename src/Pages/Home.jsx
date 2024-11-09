@@ -580,7 +580,7 @@ const Home = () => {
 
   return (
     <>
-   {/* py-10  */}
+      {/* py-10  */}
       <div className="min-h-[80vh] basitDiv home lg:gap-[120px] gap-10 justify-center md:gap-20 bg-[#031540] w-full flex flex-col items-center md:flex-row md:pt-[9rem] md:pb-[5rem]">
         <div
           data-aos="fade-right"
@@ -606,22 +606,24 @@ const Home = () => {
           </div>
 
           <div className="mt-4 flex homeLinksDiv  flex-col sm:flex-row justify-center md:justify-start w-[100%] gap-4">
-            <Link
-              to="#"
+            <a
+              href="/assets/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               data-aos="zoom-in"
               data-aos-delay="500"
               className="inline-block px-6 py-2 homeLinks bg-blue-500 text-[#0e1b38] font-bold text-[1rem] sm:text-base rounded-[10%] border-2 border-transparent duration-300 ease-in-out transition transform hover:bg-blue-500 hover:shadow-none shadow-[0_0_13px_var(--main-color)] shadow-[#00abf0]"
             >
               Resume
-            </Link>
-            <Link
-              to="#"
+            </a>
+            <a
+              href='./Contact'
               data-aos="zoom-in"
               data-aos-delay="600"
               className="inline-block px-6 py-2 homeLinks lg:px-3 lg:text-[16px] text-[#00abf0] font-bold text-[16px] sm:text-base rounded-[10%] border-2 border-blue-500 duration-300 ease-in-out transition-all hover:bg-blue-500 hover:text-[#0e1b38] shadow-none hover:shadow-[#00abf0] hover:shadow-[0_0_13px_var(--main-color)]"
             >
               Contact Me
-            </Link>
+            </a>
           </div>
         </div>
       </div>

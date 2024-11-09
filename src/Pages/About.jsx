@@ -134,8 +134,8 @@ const AboutSection = () => {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col items-center bg-[#031540] text-white py-16">
-        <div data-aos="fade-up" className="flex flex-col md:pt-[20px]  md:pb-[5rem] lg:flex-row items-between justify-between pt-[10px] gap-32 lg:gap-16 basitAbout lg:pt-[60px] md:px-[50px] lg:px-[25px]">
+      <div className="min-h-[80vh] flex h-auto pb-32 flex-col items-center bg-[#031540] text-white py-16">
+        <div data-aos="fade-up" className="flex h-auto flex-col md:pt-[20px]  md:pb-[5rem] lg:flex-row items-between justify-between pt-[10px] gap-32 lg:gap-16 basitAbout lg:pt-[60px] md:px-[50px] lg:px-[25px]">
           <div className="max-w-xl lg:text-left mr-[90px] space-y-4">
             <h1 className="text-4xl md:text-5xl lg:text-[42px] font-bold know text-center mb-9" data-aos="fade-right">
               Know Who <span className="text-[#00abf0]">I'M</span>
@@ -157,12 +157,12 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="min-h-screen w-[100%] flex flex-col items-center justify-center pt-[108px] pb-[70px] bg-[#252c41] text-white">
+      <div className="min-h-screen  h-auto w-[100%] flex flex-col items-center justify-center pt-[108px] pb-[70px] bg-[#252c41] text-white">
         <h2 className="text-5xl font-bold mb-16 text-center" data-aos="zoom-in">
           Professional <span className="text-[#00abf0]">Skillset</span>
         </h2>
 
-        <div className="flex flex-wrap justify-center gap-12 w-[80%] px-10">
+        <div className="flex flex-wrap justify-center pb-[30px] gap-12 w-[80%] px-10">
           {skills.map((skill, index) => (
             <div
               key={index}
