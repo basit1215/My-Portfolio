@@ -70,7 +70,6 @@ body, h1, h2, p, div {
 }
   .gap-32 {
       gap: 2rem;
-      padding: 0px 25px
   }
   .lg\\:flex-row {
       flex-direction: column;
@@ -148,6 +147,9 @@ margin: 0 !important;
   padding-top: 36px;
   padding-bottom: 36px;
 }
+.basitAbout{
+  padding-top: 50px;
+}
 
 }
 
@@ -200,10 +202,17 @@ padding: 0px 15px;
 }
 
 .h-\[26rem\] {
-  height: 21rem;
+  height: 22.25rem;
 }
 .dabba {
   height: 9rem ;
+}
+.basitAbout{
+  padding-top: 45px;
+}
+
+.know{
+  width: 129%;
 }
 
 
@@ -254,6 +263,9 @@ padding: 0px 15px;
 .py-\[29px\] {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.basitAbout{
+  padding-top: 45px;
 }
 }
 
@@ -323,4 +335,7 @@ padding: 0px 15px;
   .pt-\[10\px\] {
       padding-top: 0.25rem;
   }
+  .basitAbout{
+  padding-top: 30px;
+}
 }

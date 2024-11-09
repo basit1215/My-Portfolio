@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import CustomCard from "./CustomCard";
 import RealState from '../assets/realState.png';
 import Start from '../assets/start.png';
@@ -20,6 +20,8 @@ import Blog from '../assets/blog.png';
 import Meme from '../assets/meme.png';
 import Ecommerce from '../assets/ecomm.png';
 import './Projects.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const projectData = [
@@ -151,7 +153,7 @@ const projectData = [
     image: Todo,
     githubLink: "https://github.com/basit1215/Todo-App-React-Firebase",
     hostedLink: "https://todo-app-react-firebase-orpin.vercel.app/",
-    techStack: ["REACT JS", "JAVASCRIPT",  "FIREBASE"] // Added tech stack
+    techStack: ["REACT JS", "JAVASCRIPT", "FIREBASE"] // Added tech stack
   },
   {
     id: 14,
@@ -191,7 +193,7 @@ const projectData = [
     image: Blog,
     githubLink: "https://github.com/basit1215/Blogging-App",
     hostedLink: "https://blogging-app-omega-livid.vercel.app/",
-    techStack: ["REACT JS", "JAVASCRIPT",  "FIREBASE"] // Added tech stack
+    techStack: ["REACT JS", "JAVASCRIPT", "FIREBASE"] // Added tech stack
   },
   {
     id: 18,
@@ -215,7 +217,20 @@ const projectData = [
   },
 ];
 
+
+
 function ProjectGallery() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      easing: 'ease-in-out',
+      once: false,
+      offset: 120,
+      anchorPlacement: 'top-bottom'
+    });
+  }, []);
+
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const filteredProjects =
@@ -226,10 +241,10 @@ function ProjectGallery() {
   return (
     <>
       <div className="w-full justify-center">
-        <div className=" bg-[#031540] md:pt-[7rem] md:pb-[5rem] pt-8 pb-14 px-4">
-          <h1 className="text-5xl text-[#00abf0] font-bold text-center  mb-9">Projects</h1>
+        <div className=" bg-[#031540] md:pt-[7rem] projectsDiv md:pb-[5rem] pt-8 pb-14 px-4">
+          {/* <h1 className="text-5xl text-[#00abf0] font-bold text-center  mb-9">Projects</h1>
 
-          {/* Filter Buttons */}
+   
           <div className="flex justify-center space-x-4 mb-12">
             {["All", "HTML & CSS", "JavaScript", "ReactJS", "NextJS"].map((category) => (
               <button
@@ -241,8 +256,30 @@ function ProjectGallery() {
                 {category}
               </button>
             ))}
+          </div> */}
+
+          <h1 className="text-5xl text-[#00abf0]  font-bold text-center mb-9" data-aos="zoom-in"     data-aos-delay="200">
+            Projects
+          </h1>
+
+          {/* Filter Buttons */}
+          <div className="flex justify-center space-x-4 mb-12">
+            {["All", "HTML & CSS", "JavaScript", "ReactJS", "NextJS"].map((category, index) => (
+              <button
+                key={category}
+                className={`py-2 rounded-[15%] md:px-[15px] allBtns lg:px-[15px] font-semibold ${selectedCategory === category ? "bg-gray-800 text-white" : "bg-gray-700 text-white"
+                  }`}
+                onClick={() => setSelectedCategory(category)}
+                data-aos="fade-left"  // Alternating animation for each button
+                data-aos-delay={`${index * 200 + 300}`}
+             >
+                {category}
+              </button>
+            ))}
           </div>
- 
+
+
+
           {/* Project Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:mx-5  allCards  md:mx-[15px] lg:grid-cols-3 gap-6">
             {filteredProjects.map((project) => (
@@ -264,3 +301,21 @@ function ProjectGallery() {
 }
 
 export default ProjectGallery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
