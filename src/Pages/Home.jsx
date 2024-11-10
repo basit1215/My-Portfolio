@@ -69,7 +69,7 @@ const Home = () => {
           data-aos-delay="400"
           className="text-white px-4 md:px-0 w-full sm:w-2/3 md:w-[44%] lg:w-[40%] flex flex-col  md:items-start  md:text-left"
         >
-          <h4 className="text-xl homeIntro sm:text-[14px] md:text-lg mb-1">Hi There 👋🏻</h4>
+          <h4 className="text-xl homeIntro sm:text-[14px] md:text-lg mb-1">Hi There <span className="wave" role="img" aria-labelledby="wave"> 👋🏻</span></h4>
           <h1 className="text-3xl homeIntro abdul sm:text-[28px] md:text-3xl mt-4 mb-2 font-bold">
             I'm <span className="text-[#00abf0]">Abdul Basit</span>
           </h1>

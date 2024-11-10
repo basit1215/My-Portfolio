@@ -49,7 +49,7 @@ function CustomCard({ title, description, image, githubUrl, hostedUrl, techStack
 
         <div className="mt-6 flex justify-between items-center">
           <Link
-            href={githubUrl}
+            to={githubUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#1a85af] github w-[50%] border-r flex border-black justify-center items-center gap-5 text-white px-4 py-2 rounded-bl-2xl font-bold hover:bg-opacity-90 transition"
@@ -58,7 +58,7 @@ function CustomCard({ title, description, image, githubUrl, hostedUrl, techStack
           </Link>
 
           <Link
-            href={hostedUrl}
+            to={hostedUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#1a85af] text-white flex border-l border-black justify-center gap-5 items-center w-[50%] px-4 py-2 rounded-ee-2xl font-bold hover:bg-opacity-90 transition"
@@ -66,7 +66,6 @@ function CustomCard({ title, description, image, githubUrl, hostedUrl, techStack
             Hosted Link <FiExternalLink />
           </Link>
         </div>
-
       </div>
 
     </div>

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './MyAccountsLink.css'
+import { FaX, FaXTwitter } from 'react-icons/fa6';
 
 
 const MyAccountsLink = () => {
@@ -41,7 +42,7 @@ const MyAccountsLink = () => {
 
         <div className="flex justify-center allLinksDivs space-x-8">
           <Link
-            to="https://github.com/harisahmedjs"
+            to="https://github.com/basit1215"
             target="_blank"
             rel="noreferrer"
             data-aos="fade-up"
@@ -51,7 +52,7 @@ const MyAccountsLink = () => {
           </Link>
 
           <Link
-            to="https://www.linkedin.com/in/haris-ahmed-3b5643279/"
+            to="https://www.linkedin.com/in/abdul-basit-794089329/"
             target="_blank"
             rel="noreferrer"
             data-aos="fade-up"
@@ -62,7 +63,7 @@ const MyAccountsLink = () => {
           </Link>
 
           <Link
-            to="https://www.instagram.com/?hl=en"
+              to="https://www.instagram.com/abdul_basit849/"
             target="_blank"
             rel="noreferrer"
             data-aos="fade-up"
@@ -73,7 +74,7 @@ const MyAccountsLink = () => {
           </Link>
 
           <Link
-            to="https://www.instagram.com/?hl=en"
+            to="https://www.facebook.com/profile.php?id=100074464546445"
             target="_blank"
             data-aos="fade-up"
             data-aos-delay="300"
@@ -83,8 +84,7 @@ const MyAccountsLink = () => {
           </Link>
 
           <Link
-            to="https://www.instagram.com/?hl=en"
-            target="_blank"
+            to="mailto:hafizabdulbasit225@gmail.com"
             data-aos="fade-up"
             data-aos-delay="400"
             className="text-[#00abf0] px-2 py-2 hover:rounded-3xl rounded-3xl shadow-[0_0_25px_var(--main-color)] shadow-[#00abf0] duration-300 ease-in-out transition transform border-transparent bg-white hover:shadow-red-400 hover:text-red-400 text-2xl hover:scale-110 hover:-translate-y-1"
@@ -93,13 +93,13 @@ const MyAccountsLink = () => {
           </Link>
 
           <Link
-            to="https://www.instagram.com/?hl=en"
+            to="https://x.com/AbdulBa72367124"
             target="_blank"
             data-aos="fade-up"
             data-aos-delay="500"
             className="text-[#00abf0] px-2 py-2 hover:rounded-3xl rounded-3xl shadow-[0_0_25px_var(--main-color)] shadow-[#00abf0] duration-300 ease-in-out transition transform border-transparent bg-white hover:shadow-black hover:text-black text-2xl hover:scale-110 hover:-translate-y-1"
           >
-            <FaTwitter />
+            <FaXTwitter />
           </Link>
         </div>
         
