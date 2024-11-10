@@ -9,7 +9,7 @@ import './Home.css'
 
 const Home = () => {
 
-  const roles = ['Frontend Developer...', 'Web Designer...'];
+  const roles = ['Frontend Developer...',  'React Enthusiast...', 'UI/UX Designer...'];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);

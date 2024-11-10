@@ -68,7 +68,7 @@ function Contact() {
 
             <input
               placeholder="Name"
-              className='w-full h-12 border hover:border-2 border-black rounded-xl pl-5 mt-2 placeholder-[#5f5f5f] focus:bg-[#868686] bg-[#a0a0a0] focus:border-[#00abf0] focus:outline-none'
+              className='w-full h-12 border hover:border-2 border-black rounded-xl pl-5 mt-2 placeholder-[#3b3b3b] focus:bg-[#868686] bg-[#a0a0a0] focus:border-[#00abf0] focus:outline-none'
               onChange={(e) => setNames(e.target.value)}
               value={names}
               data-aos="fade-right"
@@ -78,7 +78,7 @@ function Contact() {
             <input
               type="email"
               placeholder="Email"
-              className='w-full h-12 border hover:border-2 border-black rounded-xl placeholder-[#5f5f5f] pl-5 mt-2 focus:bg-[#868686] bg-[#a0a0a0] focus:border-[#00abf0] focus:outline-none'
+              className='w-full h-12 border hover:border-2 border-black rounded-xl placeholder-[#3b3b3b] pl-5 mt-2 focus:bg-[#868686] bg-[#a0a0a0] focus:border-[#00abf0] focus:outline-none'
               onChange={(e) => setEmail(e.target.value)}
               value={email}
               data-aos="fade-left"
@@ -86,8 +86,8 @@ function Contact() {
             />
 
             <textarea
-              placeholder="Message"
-              className='w-full h-32 border hover:border-2 border-black rounded-xl pl-5 pt-2 mt-2 placeholder-[#5f5f5f] focus:bg-[#868686] bg-[#a0a0a0] focus:border-[#00abf0] focus:outline-none'
+              placeholder="Leave a comment here"
+              className='w-full h-32 border hover:border-2 border-black rounded-xl pl-5 pt-2 mt-2 placeholder-[#3b3b3b] focus:bg-[#868686] bg-[#a0a0a0] focus:border-[#00abf0] focus:outline-none'
               onChange={(e) => setMessage(e.target.value)}
               value={message}
               data-aos="fade-up"
