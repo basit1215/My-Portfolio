@@ -63,7 +63,7 @@ function CustomCard({ title, description, image, githubUrl, hostedUrl, techStack
             rel="noopener noreferrer"
             className="bg-[#1a85af] text-white flex border-l border-black justify-center gap-5 items-center w-[50%] px-4 py-2 rounded-ee-2xl font-bold hover:bg-opacity-90 transition"
           >
-            Hosted Link <FiExternalLink />
+            Live Demo <FiExternalLink />
           </Link>
         </div>
       </div>

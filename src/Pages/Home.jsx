@@ -6,7 +6,6 @@ import 'aos/dist/aos.css';
 import MyAccountsLink from '../components/MyAccountsLink';
 import './Home.css'
 
-
 const Home = () => {
 
   const roles = ['Frontend Developer...',  'React Enthusiast...', 'UI/UX Designer...'];
@@ -56,6 +55,7 @@ const Home = () => {
     <>
 
       <div className="min-h-[80vh] basitDiv home lg:gap-[120px] gap-10 justify-center md:gap-20 bg-[#031540] w-full flex flex-col items-center md:flex-row md:pt-[9rem] md:pb-[5rem]">
+      
         <div
           data-aos="fade-right"
           data-aos-delay="200"
@@ -92,7 +92,7 @@ const Home = () => {
             </a>
 
             <a
-              href='./Contact'
+              href='./contact'
               data-aos="zoom-in"
               data-aos-delay="600"
               className="inline-block px-6 py-2 homeLinks lg:px-3 lg:text-[16px] text-[#00abf0] font-bold text-[16px] sm:text-base rounded-[10%] border-2 border-blue-500 duration-300 ease-in-out transition-all hover:bg-blue-500 hover:text-[#0e1b38] shadow-none hover:shadow-[#00abf0] hover:shadow-[0_0_13px_var(--main-color)]"
