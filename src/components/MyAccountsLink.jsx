@@ -52,7 +52,7 @@ const MyAccountsLink = () => {
           </Link>
 
           <Link
-            to="https://www.linkedin.com/in/abdul-basit-794089329/"
+            to="https://www.linkedin.com/in/abdul-basit-javed-751b2733a/"
             target="_blank"
             rel="noreferrer"
             data-aos="fade-up"
