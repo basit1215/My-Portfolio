@@ -148,7 +148,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Contact.css';
 import MyAccountsLink from "../components/MyAccountsLink";
-import { db } from "../firebaseConfig"; // Firebase config import karo
+import { db } from "../firebaseConfig.js"; // Firebase config import karo
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 
 function Contact() {
