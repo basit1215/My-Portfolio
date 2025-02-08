@@ -49,18 +49,65 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import { initializeApp } from "firebase/app";
+// import { getFirestore } from "firebase/firestore";
+
+// const firebaseConfig = {
+//     apiKey: "AIzaSyAlUATKdu_5kLN89opAYShJvaymqw2q5mU",
+//     authDomain: "portfolio-890a6.firebaseapp.com",
+//     projectId: "portfolio-890a6",
+//     storageBucket: "portfolio-890a6.firebasestorage.app",
+//     messagingSenderId: "577430973529",
+//     appId: "1:577430973529:web:d900371a99bb565423d548",
+//     measurementId: "G-1581HQ9G02"
+//   };
+
+// const app = initializeApp(firebaseConfig);
+// export const db = getFirestore(app);
+
+
+
+
+
+
+
+
+
+
+
+
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAlUATKdu_5kLN89opAYShJvaymqw2q5mU",
-    authDomain: "portfolio-890a6.firebaseapp.com",
-    projectId: "portfolio-890a6",
-    storageBucket: "portfolio-890a6.firebasestorage.app",
-    messagingSenderId: "577430973529",
-    appId: "1:577430973529:web:d900371a99bb565423d548",
-    measurementId: "G-1581HQ9G02"
-  };
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
+};
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
