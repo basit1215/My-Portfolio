@@ -102,15 +102,6 @@ const Home = () => {
               Resume
             </a>
 
-            {/*  <a
-              href='./contact'
-              data-aos="zoom-in"
-              data-aos-delay="600"
-              className="inline-block px-6 py-2 homeLinks lg:px-3 lg:text-[16px] text-[#00abf0] font-bold text-[16px] sm:text-base rounded-[10%] border-2 border-blue-500 duration-300 ease-in-out transition-all hover:bg-blue-500 hover:text-[#0e1b38] shadow-none hover:shadow-[#00abf0] hover:shadow-[0_0_13px_var(--main-color)]"
-            >
-              Contact Me
-            </a> */}
-
             <Link
               to="/contact"
               data-aos="zoom-in"
